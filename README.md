@@ -2,35 +2,43 @@
 Overview:
 background-remove is a Python project that uses the Rembg library to remove backgrounds from images. The tool simplifies the process of selecting input and output paths for image processing.
 
-Prerequisites:
+## Prerequisites:
 
-Python 3
-torch, torchvision, pyinstaller, and rembg libraries
-bash
-Copy code
-pip install torch torchvision pyinstaller rembg
-Installation:
 
+Before using background-remove, ensure you have the following prerequisites installed:
+
+- Python 3
+- `torch` library
+- `torchvision` library
+- `pyinstaller` library
+- `rembg` library
+
+```bash
+pip install torch
+pip install torchvision
+pip install pyinstaller
+pip install rembg
+Installation
 Clone the repository:
 
 bash
 Copy code
 git clone https://github.com/gopal-jogi/background-remove.git
 cd background-remove
-Install dependencies:
+Install the dependencies:
 
 bash
 Copy code
 pip install -r requirements.txt
-Usage:
-Run the application:
+Usage
+Run the application using the following command:
 
 bash
 Copy code
 python main.py
-Follow on-screen instructions to select input and output paths. The tool processes images, saving the output with the background removed.
-
-Features:
+Follow the on-screen instructions to select input and output image paths. The tool will process the images and save the output with background removed.
+```
+## Features:
 
 Select input and output image paths.
 Process images using the Rembg library to remove backgrounds.
