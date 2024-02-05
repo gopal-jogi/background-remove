@@ -18,46 +18,51 @@ pip install torch
 pip install torchvision
 pip install pyinstaller
 pip install rembg
-Installation
+```
+## Installation
 Clone the repository:
 
-bash
+```bash
 Copy code
 git clone https://github.com/gopal-jogi/background-remove.git
 cd background-remove
-Install the dependencies:
+```
+## Install the dependencies:
 
-bash
+```bash
 Copy code
 pip install -r requirements.txt
-Usage
+```
+## Usage
 Run the application using the following command:
 
-bash
+```bash
 Copy code
 python main.py
-Follow the on-screen instructions to select input and output image paths. The tool will process the images and save the output with background removed.
 ```
+Follow the on-screen instructions to select input and output image paths. The tool will process the images and save the output with background removed.
+
 ## Features:
 
 Select input and output image paths.
 Process images using the Rembg library to remove backgrounds.
-Contributing:
+## Contributing:
 We welcome contributions! Follow contribution guidelines.
 
-License:
+## License:
 This project is under the MIT License - LICENSE.
 
-Acknowledgments:
+## Acknowledgments:
 Thanks to Gopal Jogi for the original project.
 
-Troubleshooting:
+## Troubleshooting:
 Refer to Troubleshooting for issues.
 
-Contact:
-For questions or support, contact the maintainer:Gopal Jogi
+### Author
 
-Your Name
-Version History:
+[Gopal Jogi](https://github.com/gopal-jogi)
+
+
+## Version History:
 
 v1.0 (2024-02-15): Initial release
